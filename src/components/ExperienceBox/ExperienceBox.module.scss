@@ -1,0 +1,36 @@
+@import '../../sass/mixins';
+
+.wrapper {
+    @include boxStyle(2.6rem 4rem, center , var(--blue-color));
+
+    .title {
+        margin-bottom: 4rem;
+        font-size: 2rem;
+    }
+
+    .contents {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 3rem;
+
+        .item {
+            display: flex;
+            align-items: center;
+
+            .icon {
+                margin-right: 2rem;
+            }
+
+            .content {
+                text-align: left;
+                .language {
+                    color: var(--white-color);
+                }
+
+                .desc {
+                    color: var(--text-color);
+                }
+            }
+        }
+    }
+}

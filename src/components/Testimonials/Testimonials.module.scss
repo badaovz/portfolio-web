@@ -1,0 +1,28 @@
+@import '../../sass/mixins';
+
+.wrapper {
+    width: 50%;
+    margin-inline: auto;
+
+    @include tablet {
+        width: 80%;
+    }
+
+    @include mobile {
+        width: 100%;
+    }
+
+    .item {
+        padding: 4rem 0;
+    }
+    
+    .swiper {
+        span {
+            background-color: var(--blue-color);
+
+        }
+    }
+
+}
+
+

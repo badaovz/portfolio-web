@@ -1,0 +1,31 @@
+@import '../../sass/mixins';
+
+.wrapper {
+    @include boxStyle(2rem 4rem, center , var(--white-color));
+    
+    margin-bottom: 2rem;
+    overflow: hidden;
+
+    .icon { 
+        font-size: 2rem;
+        
+    }
+
+
+    .desc {
+        color: var(--text-color);
+       
+    }
+
+    .link {
+        display: block;
+        margin-top: 1rem;
+        color: var(--blue-color);
+        cursor: pointer;
+        opacity: 0.7;
+
+        &:hover {
+            opacity: 1;
+        }
+    }
+}

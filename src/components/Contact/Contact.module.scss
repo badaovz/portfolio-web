@@ -1,0 +1,41 @@
+@import '../../sass/mixins';
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 25% 60%;
+    gap: 15%;
+    color: var(--white-color);
+
+    @include mobile-tablet {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+    }
+
+    .socials {
+        .item {
+            margin-bottom: 2rem;
+        }
+
+    }
+
+    .form {
+        text-align: left;
+
+        input, textarea {
+            display: block;
+            width: 100%;
+            margin-bottom: 2rem;
+            border: 1px solid var(--blue-color);
+            background-color: transparent;
+            padding: 1.5rem;
+            border-radius: .6rem;
+            font-size: 1.6rem;
+            outline: none;
+            color: var(--white-color);
+
+            &::placeholder {
+                color: var(--text-color);
+            }
+        }
+    }
+}

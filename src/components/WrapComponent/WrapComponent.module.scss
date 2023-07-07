@@ -1,0 +1,22 @@
+@import '../../sass/mixins';
+
+.wrapper {
+    width: 80%;
+    margin: 8rem auto;
+    text-align: center;
+
+    @include mobile {
+        width: 90%;
+    }
+
+    .text {
+        color: var(--text-color);
+        margin-bottom: 1rem;
+    }
+
+    .title {
+        color: var(--blue-color);
+        margin-bottom: 5rem;
+        font-size: 2rem;
+    }
+}

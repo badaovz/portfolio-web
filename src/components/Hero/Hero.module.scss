@@ -1,0 +1,76 @@
+@import '../../sass/mixins';
+
+.wrapper {
+    width: 80%;
+    margin-inline: auto;
+    text-align: center;
+    color: var(--white-color);
+    margin-block: 4rem;
+
+    .name {
+        margin-block: 0.5rem;
+    }
+
+    .job {
+        color: var(--text-color);
+    }
+
+    .btns {
+        margin-block: 2rem;
+    }
+
+    .content {
+        margin-top: 6rem;
+        color: var(--blue-color);
+        display: flex;
+        align-items: end;
+        justify-content: space-between;
+        overflow: hidden;
+
+        .socials {
+            a {
+                width: 10rem;
+                display: block;
+                text-align: left;
+            }
+        }
+
+        .image {
+            width: 30vw;
+            padding: 8rem 4rem 0 4rem;
+            background: linear-gradient(
+                to bottom,
+                var(--blue-color),
+                transparent
+            );
+            border-start-start-radius: 99rem;
+            border-start-end-radius: 99rem;
+
+            img {
+                // margin-bottom: -20%;
+                border-start-start-radius: 99rem;
+                border-start-end-radius: 99rem;
+            }
+        }
+
+        .text {
+            // display: block;
+            // text-align: right;
+            width: 10rem;
+            transform: translate(45%, -160%) rotate(90deg);
+            width: max-content;
+            // margin-right: -5rem;
+        }
+
+        @include mobile {
+            justify-content: center;
+            .image {
+                width: unset;
+            }
+            .text,
+            .socials {
+                display: none;
+            }
+        }
+    }
+}

@@ -1,0 +1,42 @@
+@import '../../sass/mixins';
+
+.wrapper {
+    background-color: var(--blue-color);
+    color: var(--bg-color);
+    padding: 6rem;
+    text-align: center;
+
+    .header {
+        font-size: 3rem;
+        margin-bottom: 2rem;
+    }
+
+    .navs {
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+
+        @include mobile {
+            flex-direction: column;
+        }
+    }
+
+    .socials {
+        display: flex;
+        gap: 2rem;
+        justify-content: center;
+        margin-block: 4rem;
+        .social {
+            display: block;
+            padding: 1rem;
+            line-height: 1;
+            border-radius: 1rem;
+            color: var(--white-color);
+            background-color: var(--main-color);
+
+            &:hover {
+                opacity: 0.5;
+            }
+        }
+    }
+}

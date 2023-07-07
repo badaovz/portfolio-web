@@ -1,0 +1,48 @@
+.wrapper {
+    position: relative;
+
+    .content {
+        padding: 10rem 2rem 2rem;
+        color: var(--white-color);
+        background-color: var(--main-color);
+        border-bottom-left-radius: 3rem;
+        border-bottom-right-radius: 
+        3rem;
+        border: 1px solid transparent;
+        transition: var(--transition-500);
+
+        &:hover {
+            background-color: transparent;
+            border-color: var(--border-color);
+            border-bottom-color: var(--blue-color);
+
+        }
+
+        .item {
+            display: flex;
+            align-items:center;
+            text-align: left;
+            margin-bottom: 2rem;
+
+            .icon {
+                margin-right: 2rem;
+                color: var(--blue-color);
+            }
+
+
+        }
+    }
+
+    .header {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: var(--blue-color);
+        color: var(--bg-color);
+        line-height: 8rem;
+        height: 8rem;
+        border-bottom-left-radius: 3rem;
+        border-bottom-right-radius: 3rem;
+    }
+}

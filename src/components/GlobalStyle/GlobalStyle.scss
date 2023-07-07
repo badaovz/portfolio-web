@@ -1,0 +1,54 @@
+@import 'normalize.css';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+:root {
+    --blue-color: #4BB3F5;
+    --text-color: #AFAFD0;
+    --white-color: #E9E9F7;
+    --main-color: #24245C;
+    --bg-color: #141439;
+    --border-color: #585879;
+    --font-family:  Montserrat, sans-serif;
+    --transition-500: all 500ms ease;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: var(--font-family);
+    scroll-behavior: smooth;
+}
+
+body {
+    font-size: 1.6rem;
+    line-height: 1.5;
+    text-rendering: optimizeSpeed;
+    overflow-x: hidden;
+    background: var(--bg-color) url('../../assets/images/bg-texture.png');
+}
+
+a {
+    text-decoration: none;
+    color: unset;
+}
+
+li {
+    list-style: none;
+}
+
+img {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+}
+
+button {
+    border: none;
+    background-color: transparent;
+}

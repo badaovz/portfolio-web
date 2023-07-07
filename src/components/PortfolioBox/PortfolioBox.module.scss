@@ -1,0 +1,20 @@
+@import '../../sass/mixins';
+
+.wrapper {
+     @include boxStyle(2rem, left , var(--white-color));
+
+    display: flex;
+    flex-direction: column;
+
+    .header {
+        flex: 1;
+        img {
+            border-radius: 2rem;
+        }
+    
+        .title {
+            margin-block: 2rem;
+        }
+       
+    } 
+}

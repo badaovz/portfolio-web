@@ -1,0 +1,22 @@
+@import '../../sass/mixins';
+
+.wrapper {
+    @include boxStyle(3rem, center , var(--blue-color));
+
+    .icon {
+        font-size: 3rem;
+        margin-bottom: 1rem;
+    }
+
+    .title {
+        color: var(--white-color);
+        margin-bottom: .5rem;
+
+    }
+
+    .desc {
+        color: var(--text-color);
+        font-size: 1.3rem;
+        // margin-bottom: 2rem;
+    }
+}
