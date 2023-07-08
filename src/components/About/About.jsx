@@ -4,7 +4,6 @@ import { aboutBox } from '../../assets/data';
 import aboutImage from '../../assets/images/avatar.png';
 import AboutBox from '../AboutBox/AboutBox';
 import Button from '../Button/Button';
-import { MyMail } from '../../constant';
 
 const cx = classNames.bind(styles);
 
@@ -28,7 +27,7 @@ const About = () => {
                     nihil nostrum aut consequuntur perferendis sequi voluptatem
                     necessitatibus?
                 </p>
-                <Button href={`mailto:${MyMail}`}>Let's Talk</Button>
+                <Button href='#contact'>Let's Talk</Button>
             </div>
         </div>
     );

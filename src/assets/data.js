@@ -32,13 +32,13 @@ export const aboutBox = [
         id: 2,
         icon: <FaUserFriends />,
         title: 'Clients',
-        desc: '300+ worldwide',
+        desc: '100+ worldwide',
     },
     {
         id: 3,
         icon: <FaFolderOpen />,
         title: 'Projects',
-        desc: '80+ completed ',
+        desc: '30+ completed ',
     },
 ];
 
@@ -160,7 +160,7 @@ export const portfolios = [
         image: p3,
         title: 'Chat app',
         linkGit: 'https://github.com/badaovz/chat-app',
-        liveLink: 'https://github.com/badaovz/chat-app',
+        liveLink: 'https://chat-app-xi-rouge.vercel.app',
     },
     {
         id: 4,
@@ -174,14 +174,14 @@ export const portfolios = [
         image: p5,
         title: 'Portfolio website',
         linkGit: 'https://github.com/badaovz/portfolio-web',
-        liveLink: 'https://github.com/badaovz/portfolio-web',
+        liveLink: 'https://portfolio-web-gilt.vercel.app/',
     },
     {
         id: 6,
         image: p6,
         title: 'Sport website',
         linkGit: 'https://github.com/badaovz/DnSport',
-        liveLink: 'https://github.com/badaovz/DnSport',
+        liveLink: 'https://dn-sport.vercel.app/',
     },
 ];
 
@@ -223,14 +223,14 @@ export const socials = [
     {
         id: 2,
         icon: <FaFacebookMessenger />,
-        title: 'Email',
+        title: 'Facebook',
         desc: 'daonguyen',
         link: 'http://m.me/ernest_achiever',
     },
     {
         id: 3,
         icon: <FaWhatsapp />,
-        title: 'Email',
+        title: 'Whatsapp',
         desc: '0989272807',
         link: 'https://wa.me/0989272807',
     },
